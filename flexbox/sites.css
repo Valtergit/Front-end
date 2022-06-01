@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+body, ul, li, p{
+    margin: 0px white;
+    padding: 0px;
+    list-style:none;
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+   
+    
+}
+body{
+    background: url(sala1.jpg);
+    background-size: cover;
+}
+
+.header{
+    background: rgb(0, 255, 200);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    padding: 15px;
+    align-items: center;
+    border:3px solid black;
+ 
+}
+.header a{
+    background-color: rgb(255, 0, 0);
+    background: linear-gradient(rgb(253, 253, 253), rgba(255, 0, 0, 0.842));
+    
+}
+
+.menu{
+display: flex;
+background-size: none;
+}
+.menu li{
+    margin-left: 10px;
+   
+    background-size: none;
+}
+
+.menu li, a{
+   
+    padding: 5px;
+    display: block;
+  
+ 
+   
+}
+
+
+/* CSS Flexbox */
+
+
+.formulario input{
+
+    padding: 3px;
+    justify-content: end;
+   display: flex;
+    text-align: center;
+    
+   
+}
+
+div{
+    background-color: aquamarine;
+    width: 179px;
+    border: 1px solid rgb(0, 0, 0);
+    height: 230px;
+    border-radius: 10px;
+    background: linear-gradient(rgba(89, 224, 248, 0.781), rgb(174, 232, 247));
+    box-shadow: 10px 10px 100px rgba(255, 255, 255, 0.582);
+}
+
+button{
+  
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+    border: 3px ridge rgb(255, 255, 255);
+    box-shadow: 30%;
+   border-radius: 10px;
+    width: 110px;
+    height: 30px;
+    padding: 2px;
+    
+   
+}
+.formulario label{
+    color: black;
+}
+
+

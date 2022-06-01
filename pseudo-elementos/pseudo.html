@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo elemento</title>
+    <style>
+
+        body{
+            font-family: 'Times New Roman', Times, serif;
+ }
+        a{
+            color: red;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: rgb(7, 1, 1);
+           
+        }
+
+        a::after{
+            content: '(⇒)';
+            text-decoration: none;
+            color:darkblue;
+            font-weight: normal;
+
+        }
+        a::before{
+            content: '(⇐)';
+        }
+        .renata::after{
+            content: '(charmosa)';
+
+        }
+        #sala::after{
+          content: '(ei)';
+        }
+        #sala::before{
+          content: '(oi)';
+        }
+        .renata::before{
+            content: '(linda)';
+
+        }
+        #sala > p{
+            display: none;
+
+        }
+        
+        #sala:hover > p {
+            display: block;
+            background-color: aqua;
+        }
+        #sala:hover a{
+            color: yellow;
+        }
+        #sala:hover{
+            color: yellow;
+        }
+
+
+    </style>
+</head>
+<body>
+    /*
+     . = class
+     # = id
+     > = childre/filho
+     : = pseudo classe
+     :: = pseudo elemento
+
+    */
+    <h1>testando</h1>
+
+    <ul>
+        <li id="sala">link github <p><a href="https://github.com/" target="_blank">github </a></p></li>
+        <li> <a href="https://www.youtube.com/watch?v=vMlrcOVr7po" target="_blank" class="renata">youtube</a></li>
+        <li><a href="https://www.facebook.com/groups/875212505868750" target="_blank">facebook</a></li>
+      
+    </ul>
+    
+    
+</body>
+</html>

@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+input{
+
+    margin: 0 12px 0  0;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+}
+h2{
+    margin: 30px 30px;
+    background: linear-gradient(pink, rgb(252, 182, 135));
+    border: 8px solid black;
+    padding: auto;
+    text-decoration: none;
+    text-align: center;
+    border-style: double;
+
+}
+

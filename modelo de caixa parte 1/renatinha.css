@@ -1,0 +1,27 @@
+@charset "UTF-8";
+body{
+    background: linear-gradient(pink, rgba(228, 36, 68, 0.836)) ;
+    
+}
+    
+.renata:hover{
+    color: aliceblue;
+    background-color: black;
+}
+.renata{
+    padding: 5px;
+    border: 2px solid salmon;
+    background-color: brown;
+    height: 187px;
+    width: 194px;
+    outline: 10px solid black;
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    border-width: 17px ;
+    margin:auto;
+    margin-top: 10px ;
+    margin-bottom: 10px;
+    margin-left:10px ;
+    margin-right:10px ;
+}
+
